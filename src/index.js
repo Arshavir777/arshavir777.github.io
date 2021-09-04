@@ -23,8 +23,8 @@ ReactDOM.render(
 		<Proficiency />
 		<Education />
 		<Experience />
-		<Feedbacks />
-		<Projects />
+		{/* <Feedbacks />
+		<Projects /> */}
 		<GithubProfile />
 	</>,
 	document.getElementById("root")

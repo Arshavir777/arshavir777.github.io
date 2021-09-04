@@ -25,7 +25,7 @@ const Greetings = () => {
         <main ref="main">
           <div className="position-relative">
             <section className="section section-lg section-shaped pb-250">
-              <div className="shape shape-style-1 bg-gradient-info">
+              <div className="shape shape-style-1 bg-gradient-dark">
                 <span />
                 <span />
                 <span />
@@ -47,7 +47,7 @@ const Greetings = () => {
                       <SocialLinks />
                       <div className="btn-wrapper my-4">
                         <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
+                          className="btn-outline-danger btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
                           href={greetings.resumeLink}
                         >
